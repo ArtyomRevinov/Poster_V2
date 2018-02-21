@@ -1,0 +1,188 @@
+.header a, a:hover {
+	color: #7f8ef0;
+	text-decoration: none;
+}
+
+.header{
+	height: 9px;
+	position: absolute;
+	bottom: 67px;
+
+}
+.header	h1 {
+	
+	font-size: 250%;
+	font-family: 'Merriweather', serif;
+	position: absolute;
+	top: -2px;
+	left: -7px;
+}
+
+.header p {
+	color: white !important;
+	font-size: 40%;
+	
+	font-family: 'Lobster'; 
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+.nav-pills>li>a{
+	color: #fff;
+}
+.nav-pills>li>a:hover {
+	background-color: #346270;
+}
+.navbar-inverse {
+    padding: 1%;
+}
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+	}
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header	h1 {
+		letter-spacing: 5px;
+		font-size: 200%;
+	}
+	.header{
+		text-align: center; 
+	}
+}
+
+.clear{
+	clear: both;
+	width: 63px;
+}
+
+.wrapper{
+	min-height: 100%
+}
+
+html, body{
+	height: 100%;
+	
+}
+
+.films_block{
+	text-align: center;
+
+}
+
+.films_block img{
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 100%;
+}
+
+.film_label{
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.panel {
+	border: none;
+
+}
+
+.panel-body{
+	background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading{
+	background-color: #6b94f0;
+	color: white;
+	border-color: transparent;
+}
+.sidebar-header{
+	font-size: 120%;
+	
+}
+
+.form-control{
+	border-radius: 0px;
+}
+.input-lg{
+	font-size: 14px;
+}
+
+.list-group-item-warning{
+	color: #8a6d3b;
+	background-color: #f9f9f9;
+
+}
+
+.badge{
+	background-color: #000000;
+}
+.info-block{
+	font-size: 	120%;
+}
+.info-block.badge{
+	font-size: 	80%;
+
+}
+
+.form-control{
+	font-size: 14px;
+
+}
+.infoblock span{
+	margin-right: 3%;
+}
+
+table tbody>tr>td.vert-align{
+	vertical-align: middle;
+}
+textarea.form-control{
+		height: 200px;
+		margin-bottom: 10px;
+}
+footer{
+	color: #666;
+	background-color: #222;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+}
+
+footer a{
+	color: #999;
+
+}
+
+footer a:hover{
+	color: #efefef;
+}
+.modal-header {
+	padding: 0;
+}
+.modal-header .close {
+	padding: 10px 15px;
+}
+.modal-header ul {
+	border: none;
+}
+.modal-header ul li {
+	margin: 0;
+}
+.modal-header ul li a {
+	border: none;
+	border-radius: 0;
+}
+.modal-header ul li.active a {
+	color: #e12f27;
+}
+.modal-header ul li a:hover {
+	border: none;
+}
+.modal-header ul li a span {
+	margin-left: 10px;
+}
+.modal-body .form-group {
+	margin-bottom: 10px;
+}
