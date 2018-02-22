@@ -1,11 +1,9 @@
 package kz.epam.command.impl;
 
 import kz.epam.command.ActionCommand;
-import kz.epam.constant.Constants;
-import kz.epam.dao.impl.NewsDao;
+import kz.epam.dao.NewsDao;
 import kz.epam.entity.News;
 import kz.epam.resource.ConfigurationManager;
-import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import java.sql.SQLException;

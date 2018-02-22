@@ -1,6 +1,6 @@
-package kz.epam.dao.impl;
+package kz.epam.dao;
 
-import kz.epam.Connector.DataBaseConnector;
+import kz.epam.connector.DataBaseConnector;
 import kz.epam.entity.Poster;
 import kz.epam.util.Converter;
 

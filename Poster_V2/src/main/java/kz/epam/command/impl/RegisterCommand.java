@@ -2,7 +2,7 @@ package kz.epam.command.impl;
 
 import kz.epam.command.ActionCommand;
 import kz.epam.constant.Constants;
-import kz.epam.dao.impl.UserDao;
+import kz.epam.dao.UserDao;
 import kz.epam.resource.ConfigurationManager;
 import org.apache.log4j.Logger;
 

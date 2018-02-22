@@ -1,8 +1,7 @@
-package kz.epam.Connector;
+package kz.epam.connector;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 
 import kz.epam.constant.Constants;
 import org.apache.log4j.Logger;
